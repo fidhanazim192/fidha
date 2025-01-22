@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fidha Fathima - Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #2d3748;
+            background-color: #f7fafc;
+        }
+
+        section {
+            padding: 4rem 2rem;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #ff6b6b, #ffd93d);
+            color: white;
+            text-align: center;
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .about {
+            background: #fff;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .skills {
+            background: #e9d5ff;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            max-width: 800px;
+            margin: 2rem auto 0;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .business {
+            background: #fde68a;
+        }
+
+        .business-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 2rem auto 0;
+        }
+
+        .business-item {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .business-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .contact {
+            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: inherit;
+        }
+
+        h3 {
+            color: #4f46e5;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact h3 {
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            section {
+                padding: 3rem 1rem;
+            }
+
+            .skills-grid, .business-items {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div>
+            <h1>Fidha Fathima</h1>
+            <p>Web Development Student | Entrepreneur</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>I am a passionate web development student at Mar Athanasius College Of Engineering. Currently expanding my knowledge in web technologies while participating in Tinker Her Hack, a women-exclusive hackathon. I combine my technical interests with entrepreneurial spirit through my small business venture.</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Coding</h3>
+                <p>Developing web applications and learning new technologies</p>
+            </div>
+            <div class="skill-card">
+                <h3>Typing</h3>
+                <p>Efficient and accurate typing skills</p>
+            </div>
+            <div class="skill-card">
+                <h3>Learning</h3>
+                <p>Quick learner with a passion for acquiring new skills</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="business">
+        <h2>My Business</h2>
+        <div class="business-items">
+            <div class="business-item">
+                <h3>Photo Frames</h3>
+                <p>Custom designed photo frames for your special moments</p>
+            </div>
+            <div class="business-item">
+                <h3>Hampers</h3>
+                <p>Beautifully curated gift hampers for all occasions</p>
+            </div>
+            <div class="business-item">
+                <h3>Gift Items</h3>
+                <p>Unique and thoughtful gift selections</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: fidhanazim192@gmail.com</p>
+    </section>
+</body>
+</html>
